@@ -1,0 +1,59 @@
+The system is: Linux - shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+4.15.0-159-generic - shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35c92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35c92.dir/build.make CMakeFiles/cmTC_35c92.dir/build
+make[1]: Entering directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35c92.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_35c92.dir/testCCompiler.c.o   -c /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_35c92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c92.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_35c92.dir/testCCompiler.c.o  -o cmTC_35c92 
+make[1]: Leaving directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dde61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dde61.dir/build.make CMakeFiles/cmTC_dde61.dir/build
+make[1]: Entering directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dde61.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dde61.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_dde61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dde61.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dde61.dir/CMakeCCompilerABI.c.o  -o cmTC_dde61 
+make[1]: Leaving directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f062/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f062.dir/build.make CMakeFiles/cmTC_8f062.dir/build
+make[1]: Entering directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f062.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8f062.dir/testCXXCompiler.cxx.o -c /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8f062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f062.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8f062.dir/testCXXCompiler.cxx.o  -o cmTC_8f062 
+make[1]: Leaving directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00904.dir/build.make CMakeFiles/cmTC_00904.dir/build
+make[1]: Entering directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00904.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_00904.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_00904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00904.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_00904.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_00904 
+make[1]: Leaving directory '/home/ubuntu/TinyMuduo/build/CMakeFiles/CMakeTmp'
+
+
