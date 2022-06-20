@@ -123,6 +123,60 @@ tinymuduo/fast:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/build
 .PHONY : tinymuduo/fast
 
+src/Logging.o: src/Logging.cc.o
+
+.PHONY : src/Logging.o
+
+# target to build an object file
+src/Logging.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Logging.cc.o
+.PHONY : src/Logging.cc.o
+
+src/Logging.i: src/Logging.cc.i
+
+.PHONY : src/Logging.i
+
+# target to preprocess a source file
+src/Logging.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Logging.cc.i
+.PHONY : src/Logging.cc.i
+
+src/Logging.s: src/Logging.cc.s
+
+.PHONY : src/Logging.s
+
+# target to generate assembly for a file
+src/Logging.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Logging.cc.s
+.PHONY : src/Logging.cc.s
+
+src/Timestamp.o: src/Timestamp.cc.o
+
+.PHONY : src/Timestamp.o
+
+# target to build an object file
+src/Timestamp.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Timestamp.cc.o
+.PHONY : src/Timestamp.cc.o
+
+src/Timestamp.i: src/Timestamp.cc.i
+
+.PHONY : src/Timestamp.i
+
+# target to preprocess a source file
+src/Timestamp.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Timestamp.cc.i
+.PHONY : src/Timestamp.cc.i
+
+src/Timestamp.s: src/Timestamp.cc.s
+
+.PHONY : src/Timestamp.s
+
+# target to generate assembly for a file
+src/Timestamp.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Timestamp.cc.s
+.PHONY : src/Timestamp.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tinymuduo"
 	@echo "... edit_cache"
+	@echo "... src/Logging.o"
+	@echo "... src/Logging.i"
+	@echo "... src/Logging.s"
+	@echo "... src/Timestamp.o"
+	@echo "... src/Timestamp.i"
+	@echo "... src/Timestamp.s"
 .PHONY : help
 
 
