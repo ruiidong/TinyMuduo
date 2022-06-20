@@ -12,6 +12,6 @@ public:
     noncopyable(const noncopyable &) = delete;          //delete(禁用函数)
     noncopyable &operator=(const noncopyable &) = delete;
 protected:
-    noncopyable() = default;                            //生成默认的函数定义提
+    noncopyable() = default;                            //生成默认的函数定义体
     ~noncopyable() = default;
 };
