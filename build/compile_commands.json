@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/ubuntu/TinyMuduo/build",
+  "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o -c /home/ubuntu/TinyMuduo/src/InetAddress.cc",
+  "file": "/home/ubuntu/TinyMuduo/src/InetAddress.cc"
+},
+{
+  "directory": "/home/ubuntu/TinyMuduo/build",
   "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/Logging.cc.o -c /home/ubuntu/TinyMuduo/src/Logging.cc",
   "file": "/home/ubuntu/TinyMuduo/src/Logging.cc"
+},
+{
+  "directory": "/home/ubuntu/TinyMuduo/build",
+  "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o -c /home/ubuntu/TinyMuduo/src/SocketOps.cc",
+  "file": "/home/ubuntu/TinyMuduo/src/SocketOps.cc"
 },
 {
   "directory": "/home/ubuntu/TinyMuduo/build",

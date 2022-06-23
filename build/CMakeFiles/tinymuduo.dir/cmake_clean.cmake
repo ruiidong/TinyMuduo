@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o"
   "CMakeFiles/tinymuduo.dir/src/Logging.cc.o"
+  "CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o"
   "CMakeFiles/tinymuduo.dir/src/Timestamp.cc.o"
   "../lib/libtinymuduo.pdb"
   "../lib/libtinymuduo.so"

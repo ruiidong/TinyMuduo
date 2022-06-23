@@ -123,6 +123,33 @@ tinymuduo/fast:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/build
 .PHONY : tinymuduo/fast
 
+src/InetAddress.o: src/InetAddress.cc.o
+
+.PHONY : src/InetAddress.o
+
+# target to build an object file
+src/InetAddress.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o
+.PHONY : src/InetAddress.cc.o
+
+src/InetAddress.i: src/InetAddress.cc.i
+
+.PHONY : src/InetAddress.i
+
+# target to preprocess a source file
+src/InetAddress.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/InetAddress.cc.i
+.PHONY : src/InetAddress.cc.i
+
+src/InetAddress.s: src/InetAddress.cc.s
+
+.PHONY : src/InetAddress.s
+
+# target to generate assembly for a file
+src/InetAddress.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/InetAddress.cc.s
+.PHONY : src/InetAddress.cc.s
+
 src/Logging.o: src/Logging.cc.o
 
 .PHONY : src/Logging.o
@@ -149,6 +176,33 @@ src/Logging.s: src/Logging.cc.s
 src/Logging.cc.s:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Logging.cc.s
 .PHONY : src/Logging.cc.s
+
+src/SocketOps.o: src/SocketOps.cc.o
+
+.PHONY : src/SocketOps.o
+
+# target to build an object file
+src/SocketOps.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o
+.PHONY : src/SocketOps.cc.o
+
+src/SocketOps.i: src/SocketOps.cc.i
+
+.PHONY : src/SocketOps.i
+
+# target to preprocess a source file
+src/SocketOps.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/SocketOps.cc.i
+.PHONY : src/SocketOps.cc.i
+
+src/SocketOps.s: src/SocketOps.cc.s
+
+.PHONY : src/SocketOps.s
+
+# target to generate assembly for a file
+src/SocketOps.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/SocketOps.cc.s
+.PHONY : src/SocketOps.cc.s
 
 src/Timestamp.o: src/Timestamp.cc.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tinymuduo"
 	@echo "... edit_cache"
+	@echo "... src/InetAddress.o"
+	@echo "... src/InetAddress.i"
+	@echo "... src/InetAddress.s"
 	@echo "... src/Logging.o"
 	@echo "... src/Logging.i"
 	@echo "... src/Logging.s"
+	@echo "... src/SocketOps.o"
+	@echo "... src/SocketOps.i"
+	@echo "... src/SocketOps.s"
 	@echo "... src/Timestamp.o"
 	@echo "... src/Timestamp.i"
 	@echo "... src/Timestamp.s"

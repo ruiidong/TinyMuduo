@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 19 20:40:27 2022
+# Make data base, printed on Thu Jun 23 20:49:41 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/ubuntu
 # environment
-SSH_CONNECTION = 111.4.54.48 56185 10.0.12.2 22
+SSH_CONNECTION = 111.4.54.48 59282 10.0.12.2 22
 # environment
 PATH = /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -69,7 +69,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /home/ubuntu/TinyMuduo
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/500/vscode-ipc-c9fc0ec8-b3e8-4612-acfb-433268cbb9a3.sock
+VSCODE_IPC_HOOK_CLI = /run/user/500/vscode-ipc-d7f00586-1824-4f40-9732-eb348ebdfce0.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -99,7 +99,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 43078
+XDG_SESSION_ID = 57419
 # environment
 USER = ubuntu
 # makefile
@@ -117,7 +117,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 111.4.54.48 56185 22
+SSH_CLIENT = 111.4.54.48 59282 22
 # environment
 MAIL = /var/mail/ubuntu
 # automatic
@@ -159,9 +159,9 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 
 # Directories
 
-# . (device 64513, inode 135493): 9 files, no impossibilities.
+# . (device 64513, inode 135493): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -211,12 +211,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 146 B / avg = 8 B
-# current buf: size = 8162 B / used = 146 B / count = 17 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 150 B / avg = 8 B
+# current buf: size = 8162 B / used = 150 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 20 / hit rate = 15%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Sun Jun 19 20:40:27 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
+# Finished Make data base on Thu Jun 23 20:49:41 2022
 
  

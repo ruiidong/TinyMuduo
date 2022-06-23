@@ -38,10 +38,3 @@ void Logger::log(string msg)
     }
     cout << Timestamp::now().toString() << " : " << msg << std::endl;
 }
-
-int main()
-{
-    LOG_INFO("123%d",456);
-    LOG_DEBUG("123%d",456);
-    return 0;
-}
