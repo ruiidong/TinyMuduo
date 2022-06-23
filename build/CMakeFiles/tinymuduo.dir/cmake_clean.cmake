@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tinymuduo.dir/src/Channel.cc.o"
+  "CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o"
   "CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o"
   "CMakeFiles/tinymuduo.dir/src/Logging.cc.o"
   "CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o"

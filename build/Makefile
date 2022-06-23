@@ -123,6 +123,60 @@ tinymuduo/fast:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/build
 .PHONY : tinymuduo/fast
 
+src/Channel.o: src/Channel.cc.o
+
+.PHONY : src/Channel.o
+
+# target to build an object file
+src/Channel.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Channel.cc.o
+.PHONY : src/Channel.cc.o
+
+src/Channel.i: src/Channel.cc.i
+
+.PHONY : src/Channel.i
+
+# target to preprocess a source file
+src/Channel.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Channel.cc.i
+.PHONY : src/Channel.cc.i
+
+src/Channel.s: src/Channel.cc.s
+
+.PHONY : src/Channel.s
+
+# target to generate assembly for a file
+src/Channel.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Channel.cc.s
+.PHONY : src/Channel.cc.s
+
+src/EventLoop.o: src/EventLoop.cc.o
+
+.PHONY : src/EventLoop.o
+
+# target to build an object file
+src/EventLoop.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o
+.PHONY : src/EventLoop.cc.o
+
+src/EventLoop.i: src/EventLoop.cc.i
+
+.PHONY : src/EventLoop.i
+
+# target to preprocess a source file
+src/EventLoop.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EventLoop.cc.i
+.PHONY : src/EventLoop.cc.i
+
+src/EventLoop.s: src/EventLoop.cc.s
+
+.PHONY : src/EventLoop.s
+
+# target to generate assembly for a file
+src/EventLoop.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EventLoop.cc.s
+.PHONY : src/EventLoop.cc.s
+
 src/InetAddress.o: src/InetAddress.cc.o
 
 .PHONY : src/InetAddress.o
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tinymuduo"
 	@echo "... edit_cache"
+	@echo "... src/Channel.o"
+	@echo "... src/Channel.i"
+	@echo "... src/Channel.s"
+	@echo "... src/EventLoop.o"
+	@echo "... src/EventLoop.i"
+	@echo "... src/EventLoop.s"
 	@echo "... src/InetAddress.o"
 	@echo "... src/InetAddress.i"
 	@echo "... src/InetAddress.s"

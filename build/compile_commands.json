@@ -1,6 +1,16 @@
 [
 {
   "directory": "/home/ubuntu/TinyMuduo/build",
+  "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/Channel.cc.o -c /home/ubuntu/TinyMuduo/src/Channel.cc",
+  "file": "/home/ubuntu/TinyMuduo/src/Channel.cc"
+},
+{
+  "directory": "/home/ubuntu/TinyMuduo/build",
+  "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o -c /home/ubuntu/TinyMuduo/src/EventLoop.cc",
+  "file": "/home/ubuntu/TinyMuduo/src/EventLoop.cc"
+},
+{
+  "directory": "/home/ubuntu/TinyMuduo/build",
   "command": "/usr/bin/c++  -Dtinymuduo_EXPORTS -I/home/ubuntu/TinyMuduo/include   -g -std=c++11 -g -fPIC   -o CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o -c /home/ubuntu/TinyMuduo/src/InetAddress.cc",
   "file": "/home/ubuntu/TinyMuduo/src/InetAddress.cc"
 },
