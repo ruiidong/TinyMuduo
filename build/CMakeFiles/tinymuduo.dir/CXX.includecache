@@ -38,6 +38,16 @@ iostream
 noncopyable.h
 ../include/noncopyable.h
 
+../include/Poller.h
+noncopyable.h
+../include/noncopyable.h
+Timestamp.h
+../include/Timestamp.h
+map
+-
+vector
+-
+
 ../include/SocketOps.h
 arpa/inet.h
 -
@@ -81,6 +91,12 @@ Logging.h
 /home/ubuntu/TinyMuduo/src/Logging.h
 Timestamp.h
 /home/ubuntu/TinyMuduo/src/Timestamp.h
+
+/home/ubuntu/TinyMuduo/src/Poller.cc
+Poller.h
+/home/ubuntu/TinyMuduo/src/Poller.h
+Channel.h
+/home/ubuntu/TinyMuduo/src/Channel.h
 
 /home/ubuntu/TinyMuduo/src/SocketOps.cc
 SocketOps.h

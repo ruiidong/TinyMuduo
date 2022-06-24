@@ -21,6 +21,12 @@ CMakeFiles/tinymuduo.dir/src/Logging.cc.o: ../include/Timestamp.h
 CMakeFiles/tinymuduo.dir/src/Logging.cc.o: ../include/noncopyable.h
 CMakeFiles/tinymuduo.dir/src/Logging.cc.o: ../src/Logging.cc
 
+CMakeFiles/tinymuduo.dir/src/Poller.cc.o: ../include/Channel.h
+CMakeFiles/tinymuduo.dir/src/Poller.cc.o: ../include/Poller.h
+CMakeFiles/tinymuduo.dir/src/Poller.cc.o: ../include/Timestamp.h
+CMakeFiles/tinymuduo.dir/src/Poller.cc.o: ../include/noncopyable.h
+CMakeFiles/tinymuduo.dir/src/Poller.cc.o: ../src/Poller.cc
+
 CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o: ../include/Endian.h
 CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o: ../include/Logging.h
 CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o: ../include/SocketOps.h

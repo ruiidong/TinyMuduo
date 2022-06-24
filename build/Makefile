@@ -231,6 +231,33 @@ src/Logging.cc.s:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Logging.cc.s
 .PHONY : src/Logging.cc.s
 
+src/Poller.o: src/Poller.cc.o
+
+.PHONY : src/Poller.o
+
+# target to build an object file
+src/Poller.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Poller.cc.o
+.PHONY : src/Poller.cc.o
+
+src/Poller.i: src/Poller.cc.i
+
+.PHONY : src/Poller.i
+
+# target to preprocess a source file
+src/Poller.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Poller.cc.i
+.PHONY : src/Poller.cc.i
+
+src/Poller.s: src/Poller.cc.s
+
+.PHONY : src/Poller.s
+
+# target to generate assembly for a file
+src/Poller.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Poller.cc.s
+.PHONY : src/Poller.cc.s
+
 src/SocketOps.o: src/SocketOps.cc.o
 
 .PHONY : src/SocketOps.o
@@ -306,6 +333,9 @@ help:
 	@echo "... src/Logging.o"
 	@echo "... src/Logging.i"
 	@echo "... src/Logging.s"
+	@echo "... src/Poller.o"
+	@echo "... src/Poller.i"
+	@echo "... src/Poller.s"
 	@echo "... src/SocketOps.o"
 	@echo "... src/SocketOps.i"
 	@echo "... src/SocketOps.s"
