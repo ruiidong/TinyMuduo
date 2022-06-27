@@ -150,6 +150,33 @@ src/Channel.cc.s:
 	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/Channel.cc.s
 .PHONY : src/Channel.cc.s
 
+src/EPollPoller.o: src/EPollPoller.cc.o
+
+.PHONY : src/EPollPoller.o
+
+# target to build an object file
+src/EPollPoller.cc.o:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o
+.PHONY : src/EPollPoller.cc.o
+
+src/EPollPoller.i: src/EPollPoller.cc.i
+
+.PHONY : src/EPollPoller.i
+
+# target to preprocess a source file
+src/EPollPoller.cc.i:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.i
+.PHONY : src/EPollPoller.cc.i
+
+src/EPollPoller.s: src/EPollPoller.cc.s
+
+.PHONY : src/EPollPoller.s
+
+# target to generate assembly for a file
+src/EPollPoller.cc.s:
+	$(MAKE) -f CMakeFiles/tinymuduo.dir/build.make CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.s
+.PHONY : src/EPollPoller.cc.s
+
 src/EventLoop.o: src/EventLoop.cc.o
 
 .PHONY : src/EventLoop.o
@@ -324,6 +351,9 @@ help:
 	@echo "... src/Channel.o"
 	@echo "... src/Channel.i"
 	@echo "... src/Channel.s"
+	@echo "... src/EPollPoller.o"
+	@echo "... src/EPollPoller.i"
+	@echo "... src/EPollPoller.s"
 	@echo "... src/EventLoop.o"
 	@echo "... src/EventLoop.i"
 	@echo "... src/EventLoop.s"

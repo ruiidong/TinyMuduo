@@ -8,6 +8,14 @@ CMakeFiles/tinymuduo.dir/src/Channel.cc.o: ../include/Timestamp.h
 CMakeFiles/tinymuduo.dir/src/Channel.cc.o: ../include/noncopyable.h
 CMakeFiles/tinymuduo.dir/src/Channel.cc.o: ../src/Channel.cc
 
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/Channel.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/EPollPoller.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/Logging.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/Poller.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/Timestamp.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../include/noncopyable.h
+CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o: ../src/EPollPoller.cc
+
 CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o: ../include/EventLoop.h
 CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o: ../src/EventLoop.cc
 

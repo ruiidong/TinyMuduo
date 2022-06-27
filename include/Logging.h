@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include <unistd.h>
 
 #include "noncopyable.h"
 
@@ -52,6 +53,7 @@ using namespace std;
             auto& logger = Logger::getInstance(); \
             logger.setLogLevel(Logger::FATAL); \
             logger.log(buf); \
+            exit(0); \
         } while (0)
 
 class Logger : noncopyable

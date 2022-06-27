@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 24 22:17:44 2022
+# Make data base, printed on Mon Jun 27 21:21:03 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/ubuntu
 # environment
-SSH_CONNECTION = 111.4.54.48 64832 10.0.12.2 22
+SSH_CONNECTION = 111.4.54.48 49376 10.0.12.2 22
 # environment
 PATH = /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -69,7 +69,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /home/ubuntu/TinyMuduo
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/500/vscode-ipc-b1a4538c-677b-49f7-954d-4723b20b62ed.sock
+VSCODE_IPC_HOOK_CLI = /run/user/500/vscode-ipc-4d993696-8408-4adf-8b04-f70202c5f8f8.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -99,7 +99,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 61338
+XDG_SESSION_ID = 72011
 # environment
 USER = ubuntu
 # makefile
@@ -117,7 +117,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 111.4.54.48 64832 22
+SSH_CLIENT = 111.4.54.48 49376 22
 # environment
 MAIL = /var/mail/ubuntu
 # automatic
@@ -217,6 +217,6 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Fri Jun 24 22:17:44 2022
+# Finished Make data base on Mon Jun 27 21:21:03 2022
 
  
