@@ -31,3 +31,13 @@ void sockets::toIpPort(char *buf, size_t size,
     uint16_t port = sockets::networkToHost16(addr4->sin_port);
     snprintf(buf + end, size - end, ":%u", port);
 }
+
+ssize_t sockets::write(int sockfd, const void *buf, size_t count)
+{
+    return ::write(sockfd, buf, count);
+}
+
+ssize_t sockets::read(int sockfd, void *buf, int count)
+{
+    return ::read(sockfd, buf, count);
+}

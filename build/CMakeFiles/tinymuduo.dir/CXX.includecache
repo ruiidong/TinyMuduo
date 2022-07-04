@@ -16,6 +16,12 @@ functional
 memory
 -
 
+../include/CurrentThread.h
+unistd.h
+-
+sys/syscall.h
+-
+
 ../include/EPollPoller.h
 Poller.h
 ../include/Poller.h
@@ -33,6 +39,24 @@ endian.h
 -
 
 ../include/EventLoop.h
+noncopyable.h
+../include/noncopyable.h
+Timestamp.h
+../include/Timestamp.h
+Poller.h
+../include/Poller.h
+CurrentThread.h
+../include/CurrentThread.h
+functional
+-
+vector
+-
+atomic
+-
+memory
+-
+mutex
+-
 
 ../include/InetAddress.h
 netinet/in.h
@@ -82,6 +106,10 @@ Logging.h
 sys/epoll.h
 -
 
+/home/ubuntu/TinyMuduo/src/CurrentThread.cc
+CurrentThread.h
+/home/ubuntu/TinyMuduo/src/CurrentThread.h
+
 /home/ubuntu/TinyMuduo/src/EPollPoller.cc
 EPollPoller.h
 /home/ubuntu/TinyMuduo/src/EPollPoller.h
@@ -97,6 +125,14 @@ strings.h
 /home/ubuntu/TinyMuduo/src/EventLoop.cc
 EventLoop.h
 /home/ubuntu/TinyMuduo/src/EventLoop.h
+Logging.h
+/home/ubuntu/TinyMuduo/src/Logging.h
+Channel.h
+/home/ubuntu/TinyMuduo/src/Channel.h
+SocketOps.h
+/home/ubuntu/TinyMuduo/src/SocketOps.h
+sys/eventfd.h
+-
 
 /home/ubuntu/TinyMuduo/src/InetAddress.cc
 InetAddress.h
@@ -121,6 +157,8 @@ Poller.h
 /home/ubuntu/TinyMuduo/src/Poller.h
 Channel.h
 /home/ubuntu/TinyMuduo/src/Channel.h
+EPollPoller.h
+/home/ubuntu/TinyMuduo/src/EPollPoller.h
 
 /home/ubuntu/TinyMuduo/src/SocketOps.cc
 SocketOps.h

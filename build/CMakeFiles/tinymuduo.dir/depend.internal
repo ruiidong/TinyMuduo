@@ -3,11 +3,16 @@
 
 CMakeFiles/tinymuduo.dir/src/Channel.cc.o
  ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EventLoop.h
  ../include/Logging.h
+ ../include/Poller.h
  ../include/Timestamp.h
  ../include/noncopyable.h
  /home/ubuntu/TinyMuduo/src/Channel.cc
+CMakeFiles/tinymuduo.dir/src/CurrentThread.cc.o
+ ../include/CurrentThread.h
+ /home/ubuntu/TinyMuduo/src/CurrentThread.cc
 CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o
  ../include/Channel.h
  ../include/EPollPoller.h
@@ -17,7 +22,14 @@ CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o
  ../include/noncopyable.h
  /home/ubuntu/TinyMuduo/src/EPollPoller.cc
 CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o
+ ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EventLoop.h
+ ../include/Logging.h
+ ../include/Poller.h
+ ../include/SocketOps.h
+ ../include/Timestamp.h
+ ../include/noncopyable.h
  /home/ubuntu/TinyMuduo/src/EventLoop.cc
 CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o
  ../include/Endian.h
@@ -31,6 +43,7 @@ CMakeFiles/tinymuduo.dir/src/Logging.cc.o
  /home/ubuntu/TinyMuduo/src/Logging.cc
 CMakeFiles/tinymuduo.dir/src/Poller.cc.o
  ../include/Channel.h
+ ../include/EPollPoller.h
  ../include/Poller.h
  ../include/Timestamp.h
  ../include/noncopyable.h
