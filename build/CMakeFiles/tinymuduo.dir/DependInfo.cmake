@@ -1,24 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/TinyMuduo/src/Channel.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/Channel.cc.o"
-  "/home/ubuntu/TinyMuduo/src/CurrentThread.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/CurrentThread.cc.o"
-  "/home/ubuntu/TinyMuduo/src/EPollPoller.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o"
-  "/home/ubuntu/TinyMuduo/src/EventLoop.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o"
-  "/home/ubuntu/TinyMuduo/src/InetAddress.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o"
-  "/home/ubuntu/TinyMuduo/src/Logging.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/Logging.cc.o"
-  "/home/ubuntu/TinyMuduo/src/Poller.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/Poller.cc.o"
-  "/home/ubuntu/TinyMuduo/src/SocketOps.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o"
-  "/home/ubuntu/TinyMuduo/src/Timestamp.cc" "/home/ubuntu/TinyMuduo/build/CMakeFiles/tinymuduo.dir/src/Timestamp.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/lrd/TinyMuduo/src/Channel.cc" "CMakeFiles/tinymuduo.dir/src/Channel.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/Channel.cc.o.d"
+  "/home/lrd/TinyMuduo/src/CurrentThread.cc" "CMakeFiles/tinymuduo.dir/src/CurrentThread.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/CurrentThread.cc.o.d"
+  "/home/lrd/TinyMuduo/src/DefaultPoller.cc" "CMakeFiles/tinymuduo.dir/src/DefaultPoller.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/DefaultPoller.cc.o.d"
+  "/home/lrd/TinyMuduo/src/EPollPoller.cc" "CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/EPollPoller.cc.o.d"
+  "/home/lrd/TinyMuduo/src/EventLoop.cc" "CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/EventLoop.cc.o.d"
+  "/home/lrd/TinyMuduo/src/InetAddress.cc" "CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/InetAddress.cc.o.d"
+  "/home/lrd/TinyMuduo/src/Logging.cc" "CMakeFiles/tinymuduo.dir/src/Logging.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/Logging.cc.o.d"
+  "/home/lrd/TinyMuduo/src/Poller.cc" "CMakeFiles/tinymuduo.dir/src/Poller.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/Poller.cc.o.d"
+  "/home/lrd/TinyMuduo/src/SocketOps.cc" "CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/SocketOps.cc.o.d"
+  "/home/lrd/TinyMuduo/src/Timestamp.cc" "CMakeFiles/tinymuduo.dir/src/Timestamp.cc.o" "gcc" "CMakeFiles/tinymuduo.dir/src/Timestamp.cc.o.d"
   )
 
 # Targets to which this target links.

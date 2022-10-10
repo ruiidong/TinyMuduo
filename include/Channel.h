@@ -5,6 +5,18 @@
 #include <functional>
 #include <memory>
 
+/**
+ * @brief 
+ * 
+ * channel封装了套接字、感性的事件以及发生的事件
+ * 
+ *                  tcpserver
+ *                      |
+ *      channel   --  eventloop   --   poller(抽象)
+ * 
+ * 
+ */
+
 class EventLoop;
 class Channel : noncopyable
 {
@@ -33,7 +45,7 @@ public:
         errorCallback_ = std::move(cb);
     }
 
-    void tie(const std::shared_ptr<void> &);
+    void tie(const std::shared_ptr<void> &); 
 
     int fd() const { return fd_; }
     int events() const { return events_; }

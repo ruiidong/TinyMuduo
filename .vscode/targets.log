@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul  4 20:55:53 2022
+# Make data base, printed on Mon Oct 10 22:47:23 2022
 
 # Variables
 
@@ -19,9 +19,7 @@ make: *** No rule to make target 'all'.  Stop.
 # default
 .SHELLFLAGS := -c
 # environment
-VSCODE_AGENT_FOLDER = /home/ubuntu/.vscode-server
-# environment
-VSCODE_LOG_NATIVE = false
+VSCODE_AGENT_FOLDER = /home/lrd/.vscode-server
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -31,13 +29,13 @@ VSCODE_LOG_NATIVE = false
 # default
 MAKE_VERSION := 4.1
 # makefile
-CURDIR := /home/ubuntu/TinyMuduo
+CURDIR := /home/lrd/TinyMuduo
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"78c842aaea601021948244dfecdb49b7.zh-cn","_translationsConfigFile":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/tcf.json","_cacheRoot":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/64bbfbf67ada9953918d72e1df2f4d8e537d340e","_corruptedFile":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /usr/bin/make
+_ = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -45,19 +43,17 @@ GNUMAKEFLAGS :=
 # environment
 XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-VSCODE_CWD = /home/ubuntu
+VSCODE_CWD = /home/lrd
 # environment
-SSH_CONNECTION = 59.173.201.84 62977 10.0.12.2 22
+SSH_CONNECTION = 192.168.230.1 60010 192.168.230.152 22
 # environment
-PATH = /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/remote-cli:/home/lrd/bin:/home/lrd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
-XDG_RUNTIME_DIR = /run/user/500
+XDG_RUNTIME_DIR = /run/user/1000
 # environment
-VSCODE_LOG_STACK = false
+ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,25 +61,25 @@ LS_COLORS =
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_PIPE_LOGGING = true
+PWD = /home/lrd/TinyMuduo
 # environment
-PWD = /home/ubuntu/TinyMuduo
+QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/500/vscode-ipc-db00240d-bf82-4034-931d-d9cc465fd057.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-783a9a56-e8fd-4bc3-a719-f838cd38933e.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-HISTTIMEFORMAT = %F %T 
-# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/ubuntu
+HOME = /home/lrd
+# environment
+LD_LIBRARY_PATH = :/usr/local/lib
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-LOGNAME = ubuntu
+LOGNAME = lrd
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -97,11 +93,11 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 5
+SHLVL = 3
 # environment
-XDG_SESSION_ID = 17929
+XDG_SESSION_ID = 1
 # environment
-USER = ubuntu
+USER = lrd
 # makefile
 .DEFAULT_GOAL := 
 # automatic
@@ -112,24 +108,24 @@ MAKE_COMMAND := make
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
 # makefile
 MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 59.173.201.84 62977 22
+SSH_CLIENT = 192.168.230.1 60010 22
 # environment
-MAIL = /var/mail/ubuntu
+MAIL = /var/mail/lrd
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+BROWSER = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
 MAKEFILES := 
-# environment
-PROMPT_COMMAND = history -a; 
 # automatic
 <F = $(notdir $<)
 # environment
@@ -138,8 +134,6 @@ LC_ALL = C
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
-# environment
-HISTSIZE = 3000
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # default
@@ -148,10 +142,8 @@ HISTSIZE = 3000
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 LANG = C
-# environment
-VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=7/91=8%
+# Load=65/1024=6%, Rehash=0, Collisions=7/87=8%
 
 # Pattern-specific Variable Values
 
@@ -159,7 +151,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 
 # Directories
 
-# . (device 64513, inode 135493): 10 files, no impossibilities.
+# . (device 2049, inode 489941): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
 
@@ -217,6 +209,6 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Mon Jul  4 20:55:53 2022
+# Finished Make data base on Mon Oct 10 22:47:23 2022
 
  
