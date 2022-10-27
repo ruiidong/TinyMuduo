@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2014 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Oct 10 22:47:23 2022
+# Make data base, printed on Thu Oct 27 16:59:09 2022
 
 # Variables
 
@@ -33,9 +31,9 @@ CURDIR := /home/lrd/TinyMuduo
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"78c842aaea601021948244dfecdb49b7.zh-cn","_translationsConfigFile":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/tcf.json","_cacheRoot":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/64bbfbf67ada9953918d72e1df2f4d8e537d340e","_corruptedFile":"/home/lrd/.vscode-server/data/clp/78c842aaea601021948244dfecdb49b7.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"d12f895d31d9f9b0d093ad4fb7402f51.zh-cn","_translationsConfigFile":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/tcf.json","_cacheRoot":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/d045a5eda657f4d7b676dedbfa7aab8207f8a075","_corruptedFile":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node
+_ = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -47,9 +45,9 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lrd
 # environment
-SSH_CONNECTION = 192.168.230.1 60010 192.168.230.152 22
+SSH_CONNECTION = 192.168.230.1 59679 192.168.230.152 22
 # environment
-PATH = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/remote-cli:/home/lrd/bin:/home/lrd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/home/lrd/bin:/home/lrd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -65,7 +63,7 @@ PWD = /home/lrd/TinyMuduo
 # environment
 QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-783a9a56-e8fd-4bc3-a719-f838cd38933e.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-ad46156e-5ead-4690-aa7b-17017692e9ab.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -115,13 +113,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.230.1 60010 22
+SSH_CLIENT = 192.168.230.1 59679 22
 # environment
 MAIL = /var/mail/lrd
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/lrd/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/helpers/browser.sh
+BROWSER = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -151,7 +149,7 @@ LANG = C
 
 # Directories
 
-# . (device 2049, inode 489941): 10 files, no impossibilities.
+# . (device 2049, inode 489757): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
 
@@ -209,6 +207,8 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Mon Oct 10 22:47:23 2022
+# Finished Make data base on Thu Oct 27 16:59:09 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
