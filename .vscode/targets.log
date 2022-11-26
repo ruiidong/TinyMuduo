@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Oct 27 16:59:09 2022
+# Make data base, printed on Sat Nov 26 17:29:48 2022
 
 # Variables
 
@@ -31,9 +31,9 @@ CURDIR := /home/lrd/TinyMuduo
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"d12f895d31d9f9b0d093ad4fb7402f51.zh-cn","_translationsConfigFile":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/tcf.json","_cacheRoot":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/d045a5eda657f4d7b676dedbfa7aab8207f8a075","_corruptedFile":"/home/lrd/.vscode-server/data/clp/d12f895d31d9f9b0d093ad4fb7402f51.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b16d881a9e4fee82f16d59f67823019e.zh-cn","_translationsConfigFile":"/home/lrd/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/tcf.json","_cacheRoot":"/home/lrd/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lrd/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/6261075646f055b99068d3688932416f2346dd3b","_corruptedFile":"/home/lrd/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node
+_ = /home/lrd/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -45,9 +45,9 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/lrd
 # environment
-SSH_CONNECTION = 192.168.230.1 59679 192.168.230.152 22
+SSH_CONNECTION = 192.168.230.1 55977 192.168.230.152 22
 # environment
-PATH = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/home/lrd/bin:/home/lrd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/lrd/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/home/lrd/bin:/home/lrd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -63,7 +63,7 @@ PWD = /home/lrd/TinyMuduo
 # environment
 QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-ad46156e-5ead-4690-aa7b-17017692e9ab.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-5c7ec901-54d7-4ebc-a0ef-9bca17ccbddc.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -113,13 +113,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.230.1 59679 22
+SSH_CLIENT = 192.168.230.1 55977 22
 # environment
 MAIL = /var/mail/lrd
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/lrd/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/helpers/browser.sh
+BROWSER = /home/lrd/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -207,7 +207,7 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Thu Oct 27 16:59:09 2022
+# Finished Make data base on Sat Nov 26 17:29:48 2022
 
  
 make: *** No rule to make target 'all'.  Stop.
