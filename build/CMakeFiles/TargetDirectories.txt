@@ -1,3 +1,0 @@
-/home/lrd/TinyMuduo/build/CMakeFiles/tinymuduo.dir
-/home/lrd/TinyMuduo/build/CMakeFiles/edit_cache.dir
-/home/lrd/TinyMuduo/build/CMakeFiles/rebuild_cache.dir
